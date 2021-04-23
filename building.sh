@@ -1,28 +1,28 @@
 #!/bin/bash
 umask 0000
 
-USER=""
+USER="adrian"
 
 cd /home/$USER
 
 umask 0000
 
 # Initalize our things
-ROMNAME=""
-SOURCE=""
-DEVICE=""
-BUILDTYPE=""
-LUNCH=""
-BRUNCH=""
-BACON=""
-JOB=""
+ROMNAME="Fluid-OS"
+SOURCE="fluid"
+DEVICE="umi"
+BUILDTYPE="userdebug"
+LUNCH="fluid_umi-userdebug"
+BRUNCH="no"
+BACON="yes"
+JOB="64"
 
 OUT="/home/$USER/$SOURCE/out/target/product/$DEVICE"
 
 # TG settings
 
-TOKEN=""
-CHATID=""
+TOKEN="1766391957:AAElr4cBgT6F1nR98PL1cPIqfB0PsURBbEI"
+CHATID="-1001357065893"
 
 # cd to dir
 
